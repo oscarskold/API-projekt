@@ -1,0 +1,122 @@
+/* main.css */
+body{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+/* Wrapper */
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Logo */
+  .logo {
+    text-align: left;
+    flex-basis: 100%;
+  }
+  
+  .logo p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Search Container */
+  .search-container {
+    margin-top: 20px;
+    flex-basis: 100%;
+  }
+  
+  .search-element {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .search-element h3 {
+    margin-right: 10px;
+  }
+  
+  .form-control {
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .search-list {
+    max-height: 200px;
+    overflow-y: auto;
+    width: 300px; /* Fixed width */
+  }
+  
+  .search-list-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .search-item-thumbnail img {
+    width: 60px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .search-item-info h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .search-item-info p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* Result Container */
+  .container {
+    flex-basis: calc(70% - 10px);
+    margin-left: 10px;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+  }
+  
+  .movie-poster img {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .movie-info {
+    margin-top: 20px;
+  }
+  
+  .movie-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .movie-misc-info li {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .genre,
+  .writer,
+  .actors,
+  .plot,
+  .language,
+  .awards {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .awards i {
+    margin-right: 5px;
+  }
+  
